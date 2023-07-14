@@ -15,9 +15,9 @@ function Employee(name, age, jobTitle) {
 }
 
 
-let p1 = new Person("pratik",22);
+let p1 = new Person("Alice",25);
 p1.greet();
-let p2 = new Employee("teja",30,"SDE-3");
+let p2 = new Employee("Bob",30,"Manager");
 p2.__proto__ = p1;
 p2.jobGreet();  
 // Do not change code below this line
