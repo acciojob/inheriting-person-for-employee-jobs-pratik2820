@@ -15,11 +15,11 @@ function Employee(name, age, jobTitle) {
 }
 
 
-let p1 = new Person("Alice",25);
-p1.greet();
-let p2 = new Employee("Bob",30,"Manager");
-p2.__proto__ = p1;
-p2.jobGreet();  
+// let p1 = new Person("Alice",25);
+// p1.greet();
+// let p2 = new Employee("Bob",30,"Manager");
+// p2.__proto__ = p1;
+// p2.jobGreet();  
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
